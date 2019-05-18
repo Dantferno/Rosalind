@@ -26,10 +26,12 @@ with open("test.fasta", "r") as f:
             if i != j:
                 if a[i] == n[j]:
                     # print le nom des ieme prefixe et le jieme suffixe qui match
+                    print(deg[j],',',deg[i],'\n')
                     file.write(deg[j])
                     file.write(',')
                     file.write(deg[i])
                     file.write('\n')
+                    print(deg[j],',',deg[i],'\n')
 
 
 
